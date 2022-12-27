@@ -1,0 +1,42 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "private",
+  "signedByOrg": "yuzaroom",
+  "signedByOrgName": "Dreamage",
+  "rootUrls": [
+    "http://localhost:3000/"
+  ],
+  "plugin": "uim-simple-json-datasource",
+  "version": "1.4.2",
+  "time": 1672116767820,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "query_ctrl.js": "7ea9d719e8fd8991f311087d7efd6b74043f046d7650503d910eb2c0a6ed6a2e",
+    "css/query-editor.css": "e600ee94329ad434d4532596e84e6a29747591723b0c853254f3cfc3e431982c",
+    "node_modules/.yarn-integrity": "bed8e6987b8afecd19001d6a64587c20effe73be5860249194500dba08315cb6",
+    "plugin.json": "04cb47b9fa16ceabb4721c51cb23f05ab0ca187660f78068b8dd667302f71272",
+    "README.md": "87090f95d1d3b953b2fa5fd84584f0c4ce7b6fa5154088bf78f7fcd1a0e99c48",
+    "img/simpleJson_logo.svg": "27da4309aa83ce92ef05a4d913de192a075869f99946e6f91006f2073c55d83d",
+    "module.js": "9d7cc0897a86cf4cc3a03daeb4d322efe469bece6429ea0d84c214ac22813731",
+    "datasource.js": "73c29c96b4d0cca7c85eec876e52334652ddba17e2a4b8b01e511cd8c821faab",
+    "partials/annotations.editor.html": "00a0735c83ace86a51d17cd3fb1a2b54d58c5284a22a36a6432da5cfa83b9808",
+    "partials/query.editor.html": "aa3b4527d5b69c0df1922557fd872ca1f4ec2b905c828d898479bcf32befe147",
+    "partials/query.options.html": "01570a3c97a66d192bf4986355a52b92b3ff5b45fe528d9e5849464e8b4e213d",
+    "partials/config.html": "d3306b5f56950e5a310713068328ca1a594df26f6d99f35881548194e5d038da"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.10
+Comment: https://openpgpjs.org
+
+wrcEARMKAAYFAmOqeiAAIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm53+8AgdZohrD2XZrKorxPL/hgQBkoZ0TRN7SD0urSeyrrNPwdbP5q/rp
+Jgy4TdCQxvsxpKsxXkhsC8E9uv0Gwy+qbpPrhAIIjwwXKGsl8F0uSpZqiMxk
+OEzPVsnVao9ujXH9GplQVbIkB9KCi8X83z86prcZ7QNE766PsVq8VkCYBtXO
+lhkuT2M=
+=qRRM
+-----END PGP SIGNATURE-----

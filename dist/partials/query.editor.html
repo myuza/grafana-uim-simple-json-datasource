@@ -1,0 +1,61 @@
+<query-editor-row query-ctrl="ctrl" class="generic-datasource-query-row" has-text-edit-mode="true">
+  <div class="gf-form-inline">
+    <div class="gf-form max-width-8">
+      <select class="gf-form-input" ng-model="ctrl.target.type" ng-options="f as f for f in ['table', 'timeserie']"></select>
+    </div>
+
+    <div class="gf-form" ng-if="ctrl.target.rawQuery">
+      <textarea class="gf-form-input" rows="5" ng-model="ctrl.target.target" spellcheck="false" ng-blur="ctrl.onChangeInternal()"></textarea>
+    </div>
+
+    <div ng-if="!ctrl.target.rawQuery">
+      <div class="gf-form">
+        <label class="gf-form-label query-keyword width-4">apps</label>
+        <gf-form-dropdown model="ctrl.target.apps"
+            allow-custom="true"
+            lookup-text="true"
+            get-options="ctrl.getOptionsApps($query)"
+            on-change="ctrl.onChangeInternal()">
+        </gf-form-dropdown>
+        <label class="gf-form-label query-keyword width-4">source</label>
+        <gf-form-dropdown model="ctrl.target.source"
+            allow-custom="true"
+            lookup-text="true"
+            get-options="ctrl.getOptionsSource($query)"
+            on-change="ctrl.onChangeInternal()">
+        </gf-form-dropdown>
+        <label class="gf-form-label query-keyword width-4">metric</label>
+        <gf-form-dropdown model="ctrl.target.metric"
+          allow-custom="true"
+          lookup-text="true"
+          get-options="ctrl.getOptionsMetric($query)"
+          on-change="ctrl.onChangeInternal()">
+        </gf-form-dropdown>
+        <label class="gf-form-label query-keyword width-4">target</label>
+        <gf-form-dropdown model="ctrl.target.target"
+            allow-custom="true"
+            lookup-text="true"
+            get-options="ctrl.getOptionsTarget($query)"
+            on-change="ctrl.onChangeInternal()">
+        </gf-form-dropdown>
+        <label class="gf-form-label query-keyword width-4">legend</label>
+        <gf-form-dropdown model="ctrl.target.legend"
+            allow-custom="true"
+            lookup-text="true"
+            get-options="ctrl.getOptionsLegend($query)"
+            on-change="ctrl.onChangeInternal()">
+        </gf-form-dropdown>
+      </div>
+      <div class="gf-form">
+
+      </div>
+
+      <div class="gf-form">
+
+      </div>
+    </div>
+    <div class="gf-form gf-form--grow">
+      <div class="gf-form-label gf-form-label--grow"></div>
+    </div>
+  </div>
+</query-editor-row>
