@@ -1,0 +1,37 @@
+{
+  "name": "UIMSahabatDEV",
+  "id": "uim-simple-json-datasource",
+  "type": "datasource",
+  "partials": {
+    "config": "public/app/plugins/datasource/uim-simple-json-datasource/partials/config.html"
+  },
+  "metrics": true,
+  "annotations": true,
+  "info": {
+    "description": "uim simple json datasource",
+    "author": {
+      "name": "SahabatDEV",
+      "url": "https://itoc.telkomsel.co.id"
+    },
+    "logos": {
+      "small": "img/simpleJson_logo.svg",
+      "large": "img/simpleJson_logo.svg"
+    },
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/myuza/grafana-uim-simple-json-datasource"
+      },
+      {
+        "name": "MIT License",
+        "url": "https://github.com/myuza/grafana-uim-simple-json-datasource/blob/master/LICENSE"
+      }
+    ],
+    "version": "0.1.10",
+    "updated": "2022-12-27"
+  },
+  "dependencies": {
+    "grafanaVersion": "9.x.x",
+    "plugins": []
+  }
+}
