@@ -11,14 +11,14 @@ Hash: SHA512
     "http://localhost:3000/"
   ],
   "plugin": "uim-simple-json-datasource",
-  "version": "1.4.2",
-  "time": 1672116767820,
+  "version": "0.1.10",
+  "time": 1672118598215,
   "keyId": "7e4d0c6a708866e7",
   "files": {
     "query_ctrl.js": "7ea9d719e8fd8991f311087d7efd6b74043f046d7650503d910eb2c0a6ed6a2e",
     "css/query-editor.css": "e600ee94329ad434d4532596e84e6a29747591723b0c853254f3cfc3e431982c",
     "node_modules/.yarn-integrity": "bed8e6987b8afecd19001d6a64587c20effe73be5860249194500dba08315cb6",
-    "plugin.json": "04cb47b9fa16ceabb4721c51cb23f05ab0ca187660f78068b8dd667302f71272",
+    "plugin.json": "2f946bfc62c37f229a03ac23a8dbee78f5dc90a225a5c1e21d05e6ac26b06b44",
     "README.md": "87090f95d1d3b953b2fa5fd84584f0c4ce7b6fa5154088bf78f7fcd1a0e99c48",
     "img/simpleJson_logo.svg": "27da4309aa83ce92ef05a4d913de192a075869f99946e6f91006f2073c55d83d",
     "module.js": "9d7cc0897a86cf4cc3a03daeb4d322efe469bece6429ea0d84c214ac22813731",
@@ -33,10 +33,10 @@ Hash: SHA512
 Version: OpenPGP.js v4.10.10
 Comment: https://openpgpjs.org
 
-wrcEARMKAAYFAmOqeiAAIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
-cIhm53+8AgdZohrD2XZrKorxPL/hgQBkoZ0TRN7SD0urSeyrrNPwdbP5q/rp
-Jgy4TdCQxvsxpKsxXkhsC8E9uv0Gwy+qbpPrhAIIjwwXKGsl8F0uSpZqiMxk
-OEzPVsnVao9ujXH9GplQVbIkB9KCi8X83z86prcZ7QNE766PsVq8VkCYBtXO
-lhkuT2M=
-=qRRM
+wrgEARMKAAYFAmOqgUYAIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm59KOAgkBYuD6muWdWJf/AXPAnnPyX+PYqoTwj8VJgJI6/HQDYc+LJN5K
+7LM6yl9+mxuJl7MUxZIJE5xDHqFX1fgLTQElcyMCB0fav3cYEnyyk2I/KM5i
+Kc8tRxS10HJKbZShrhixf7V/ab8mJQCByekoyeYRbVcnHH4GjmiKwGWoKUZI
+NExz2aVE
+=gCf1
 -----END PGP SIGNATURE-----

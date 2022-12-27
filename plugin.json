@@ -8,10 +8,10 @@
   "metrics": true,
   "annotations": true,
   "info": {
-    "description": "simple json datasource",
+    "description": "uim simple json datasource",
     "author": {
-      "name": "Grafana Labs",
-      "url": "https://grafana.com"
+      "name": "SahabatDEV",
+      "url": "https://itoc.telkomsel.co.id"
     },
     "logos": {
       "small": "img/simpleJson_logo.svg",
@@ -20,18 +20,18 @@
     "links": [
       {
         "name": "GitHub",
-        "url": "https://github.com/grafana/simple-json-datasource"
+        "url": "https://github.com/myuza/grafana-uim-simple-json-datasource"
       },
       {
         "name": "MIT License",
-        "url": "https://github.com/grafana/simple-json-datasource/blob/master/LICENSE"
+        "url": "https://github.com/myuza/grafana-uim-simple-json-datasource/blob/master/LICENSE"
       }
     ],
-    "version": "1.4.2",
-    "updated": "2020-07-31"
+    "version": "0.1.10",
+    "updated": "2022-12-27"
   },
   "dependencies": {
-    "grafanaVersion": "3.x.x",
+    "grafanaVersion": "9.x.x",
     "plugins": []
   }
 }
